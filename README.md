@@ -7,16 +7,25 @@
  
  The goal is to empower users with a visually appealing and functional web application that
  enables:
+ 
  ● Easy addition of financial transactions.
+ 
  ● Real-time balance updates.
+ 
  ● Visualization of financial trends using graphs.
+ 
  ● Access to live market prices for informed decision-making.
 
 Implementation
+
  The project is implemented as follows:
- a. Tools and Technologies
+ 
+ Tools and Technologies
+ 
  ● Frontend: HTML, CSS for layout and design.
+
  ● Logic: JavaScript for functionality.
+ 
  ● Visualization: Chart.js for rendering graphs.
 
  ![image](https://github.com/user-attachments/assets/df18ae33-0e38-4a70-952b-318f92f3deb7)
