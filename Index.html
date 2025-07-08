@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FinBank Pro- Financial Dashboard</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="script.js" defer></script>
+ </head>
+ <body>
+ <!-- Navigation Bar-->
+ <nav>
+ <div class="logo">FinBank Pro</div>
+ <ul>
+ <li><a href="#">Dashboard</a></li>
+<li><a href="#">Transactions</a></li>
+ <li><a href="#">Reports</a></li>
+ <li><a href="#">Settings</a></li>
+ </ul>
+ </nav>
+ <!-- Main Content-->
+ <div class="container">
+ <!-- Left Section: Financial Overview-->
+ <div class="left-section">
+ <h1>Your Financial Overview</h1>
+ <div class="cards">
+ <div class="card">
+ <h2>Total Balance</h2>
+ <p id="balance">₹10,000</p>
+ </div>
+ <div class="card">
+ <h2>Income</h2>
+ <p id="income">₹5,000</p>
+ </div>
+ <div class="card">
+ <h2>Expenses</h2>
+ <p id="expenses">₹2,000</p>
+ </div></div>
+<!-- Transaction Input-->
+ <div class="input-section">
+ <h3>Add Transaction</h3>
+ <label for="transaction">Amount (₹):</label>
+ <input type="number" id="transaction" placeholder="Enter amount">
+ <label for="type">Type:</label>
+ <select id="type">
+ <option value="income">Income</option>
+ <option value="expense">Expense</option>
+ </select>
+ <button onclick="addTransaction()">Add Transaction</button>
+ <p id="message"></p>
+ </div>
+ <!-- Graph-->
+ <div class="graph-section">
+ <h3>Transaction Trends</h3>
+ <canvas id="transactionChart" width="400" height="200"></canvas>
+ </div>
+ </div>
+ <!-- Right Section: Live Prices-->
+ <div class="right-section">
+ <h2>Live Market Prices</h2>
+ <div class="live-cards">
+<div class="price-card">
+ <h3>Gold</h3>
+ <p id="gold-price">₹5,700/gm</p>
+ </div>
+ <div class="price-card">
+ <h3>Silver</h3>
+ <p id="silver-price">₹72,000/kg</p>
+ </div>
+ <div class="price-card">
+ <h3>Nifty 50</h3>
+ <p id="nifty-price">22,150</p>
+ </div>
+ <div class="price-card">
+ <h3>SENSEX</h3>
+ <p id="sensex-price">73,500</p>
+ </div> </div> </div></div></body></html>
