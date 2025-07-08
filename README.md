@@ -15,6 +15,7 @@
  ● Visualization of financial trends using graphs.
  
  ● Access to live market prices for informed decision-making.
+ 
 
 Implementation
 
