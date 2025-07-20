@@ -29,4 +29,4 @@ Implementation
  
  ● Visualization: Chart.js for rendering graphs.
 
- ![image](https://github.com/user-attachments/assets/df18ae33-0e38-4a70-952b-318f92f3deb7)
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/2c071278-8ad2-4d2b-9d1b-c04dce405cd9" />
